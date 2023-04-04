@@ -29,16 +29,6 @@
       grid-area: main;
     }
   
-    /* card flow 
-    .cards{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: baseline;
-    flex-wrap: wrap;
-    }
-    */
-  
     .cards {
       display: grid;
       grid-template-columns: 50% 50%;

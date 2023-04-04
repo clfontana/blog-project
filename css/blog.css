@@ -27,12 +27,6 @@ body {
 nav {
   width: 100%;
   background-color: dodgerblue;
-  /*padding-left: 30px;
-  padding-right: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  */
 }
 
 .nav-links {
