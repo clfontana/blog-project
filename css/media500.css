@@ -35,5 +35,18 @@
         grid-gap: 5px;
     }
 
+    .socialinfo {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .articles {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        margin-top: 50px;
+    }
+  
 }
 
