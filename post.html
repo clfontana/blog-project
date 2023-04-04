@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta charset="utf-8" />
         <title>Minimal Blog Udacity Project - Claudio Fontana</title>
@@ -7,20 +8,11 @@
         <meta content="width=device-width, initial-scale=1, minimal-scale=1" name="viewport">
         <link rel="stylesheet" href="./css/blog.css">
     </head>
-    <body>
 
-        <!--div class = "container1">
-            <header class="header">
-                <nav>
-                    <a href="index.html">HOME</a> |
-                </nav>
-            </header>
-            <div class="sidebar box">Sidebar</div>
-            <div class="content box">Content</div>
-            <div class="footer box">Footer</div>
-          </div-->
+    <body>
         
         <div class="container">
+
             <header class="header box">
                 <!-- qui va messo flex ... -->
                 <nav>
@@ -31,7 +23,9 @@
             </header>
         
             <main class="content box">
+
                 <h1>Minimal Blog</h1>
+
                 <section>
                     <h2>Post title 1</h2>
                     <p>Author: John Doe, Programmer in a private company as backend/frontend developer</p>
@@ -41,6 +35,7 @@
                         <a href="#">[Linkedin]</a>
                     </div>
                 </section>
+
                 <section>
                     <p>Integer <u>hendrerit sem risus, at molestie arcu porta non</u>. Duis nulla tellus, rutrum ut dictum eget, varius vitae ex. Suspendisse ornare nibh sed dapibus vestibulum. Integer id consequat orci. Donec pretium, lacus vel pharetra pellentesque, orci dui tempus dui, id pretium urna nulla rhoncus leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eget est gravida, pellentesque massa vel, mollis lorem. Nunc finibus egestas tellus dictum commodo. Duis fermentum mattis leo quis ornare. Fusce viverra dapibus metus, ac fringilla justo aliquam sed. Quisque luctus quam eget fringilla tempus. Pellentesque ut finibus ante. Suspendisse quis cursus ligula, id mollis metus. Nunc ac augue tempus, faucibus massa sit amet, vehicula lorem.</p>
                     <h3>Subtitle 1</h3>
@@ -50,43 +45,51 @@
                     <p>Morbi volutpat ac tortor in lacinia. Aliquam iaculis ipsum a nunc ornare, vel congue diam vestibulum. Pellentesque condimentum ante sed vehicula tristique. Integer ex sapien, hendrerit a elit scelerisque, sagittis suscipit nunc. Sed commodo purus eu libero semper, eu dapibus sapien tincidunt. Duis vitae purus at elit facilisis interdum. Vivamus pharetra egestas metus, et vestibulum augue vulputate et. Cras vitae laoreet elit. Praesent et sagittis justo. Fusce consectetur sagittis mauris, a placerat libero consectetur in. In hac habitasse platea dictumst.</p>
                 </section>
 
-
                 <section class="articles">
+                    
                     <article class="card">
                         <div class="cardcontainer">
                             <h2><b>Post title 3</b></h2>
                             <p>04/04/2023</p>
                             <p>Author: John Doe</p>
-                            <img src="img/sea.jpg" alt="sea picture">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a consequat nulla, at maximus odio. Morbi non accumsan lacus.</p>
-                            <p>Pellentesque interdum massa tortor, eget porta erat luctus at. In nec fermentum lorem, in sollicitudin lorem.</p>
+                            <figure>
+                                <img src="img/sea.jpg" alt="sea picture">
+                                <figcaption>Fig. 1 Sea</figcaption>
+                            </figure>                            
+                            <p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. <i>Duis a consequat nulla</i>. Pellentesque, eget <u>porta erat luctus at</u>. In nec fermentum lorem: <q>in sollicitudin lorem</q>.</p>
                             <button type="button" class="css-button">
                                 <span class="css-button-text">continue reading</span>
                             </button>
                         </div>
                     </article>
+
                     <article class="card">
                         <div class="cardcontainer">
                             <h2><b>Post title 4</b></h2>
                             <p>04/04/2023</p>
                             <p>Author: John Doe</p>
-                            <img src="img/sea.jpg" alt="sea picture">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a consequat nulla, at maximus odio. Morbi non accumsan lacus.</p>
-                            <p>Pellentesque interdum massa tortor, eget porta erat luctus at. In nec fermentum lorem, in sollicitudin lorem.</p>
+                            <figure>
+                                <img src="img/sea.jpg" alt="sea picture">
+                                <figcaption>Fig. 1 Sea</figcaption>
+                            </figure>                            
+                            <p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur adipiscing elit. <i>Duis a consequat nulla</i>. Pellentesque, eget <u>porta erat luctus at</u>. In nec fermentum lorem: <q>in sollicitudin lorem</q>.</p>
                             <button type="button" class="css-button">
                                 <span class="css-button-text">continue reading</span>
                             </button>
                         </div>
                     </article>
+
                 </section>
                 
 
             </main>
 
-        <footer class="footer box">
-            <div>Author: John Doe <a href="mailto:clfontana@yahoo.com">johndoe@mail.com</a></div>
-            <div>@2023 - minimal blog website for frontend nanodegree first project</div>
-        </footer>
-    </div>
-</body>
+            <footer class="footer box">
+                <div>Author: John Doe <a href="mailto:clfontana@yahoo.com">johndoe@mail.com</a></div>
+                <div>@2023 - minimal blog website</div>
+            </footer>
+
+        </div>
+
+    </body>
 </html>

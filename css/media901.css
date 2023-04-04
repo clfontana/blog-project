@@ -1,0 +1,66 @@
+@media(min-width: 901px){
+    .container {
+      display:grid;
+      grid-template-columns: 100%;
+      grid-template-rows: 50px auto 100px;
+      grid-template-areas: 
+      "hd hd hd"
+      "main main main"
+      "ft ft ft";
+    }
+  
+    .header {
+      grid-area: hd;
+    }
+  
+    .footer {
+      grid-area: ft;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: dodgerblue;
+      margin-top: 50px;
+      padding-top: 10px;
+      padding-inline-start: 10px;
+      padding-inline-end: 10px;
+    }
+  
+    .content {
+      grid-area: main;
+    }
+  
+    /* card flow 
+    .cards{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: baseline;
+    flex-wrap: wrap;
+    }
+    */
+  
+    .cards {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 50%;
+      grid-gap: 10px;
+    }
+
+    .maintitle {
+      margin: 10px;
+    }
+  
+    .socialinfo {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .articles {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 100%;
+      grid-gap: 10px;
+      margin-top: 50px;
+    }
+    
+  }

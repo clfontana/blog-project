@@ -1,0 +1,39 @@
+@media (max-width: 500px){
+
+    .container {
+        display:grid;
+        grid-template-columns: 100%px;
+        grid-template-rows: 50px auto px;
+        grid-template-areas: 
+        "hd"
+        "main"
+        "ft";
+    }
+      
+    .header {
+        grid-area: hd;
+    }
+    
+    .footer {
+        grid-area: ft;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: dodgerblue;
+        margin-top: 50px;
+        padding-top: 10px;
+    }
+    
+    .content {
+        grid-area: main;
+    }
+      
+    .cards {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+    }
+
+}
+
